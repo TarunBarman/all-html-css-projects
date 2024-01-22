@@ -197,7 +197,9 @@ main {
     border-radius: 1.2rem;
 
 }
-
+.card a{
+    text-decoration: none;
+}
 .card:hover img {
     transition: 0.3s ease-in-out;
     transform: scale(1.1);
