@@ -1,0 +1,117 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+html,
+body {
+    height: 100%;
+    /* background-color: antiquewhite; */
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-family:'lato',sans-serif;
+
+
+}
+
+.pigm1 {
+    background: url(assets/image1.png);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.pigm2 {
+    background: url(assets/image2.png);
+    min-height: 400px;
+}
+
+.pigm3 {
+    background: url(assets/image3.png);
+    min-height: 400px;
+}
+
+.pigm4 {
+    background: url(assets/image4.png);
+    min-height: 400px;
+}
+
+.pigm2,
+.pigm3,
+.pigm4 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.ptext  {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 8px;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+   
+
+
+}
+
+.textbg{
+    /* border: 1px solid black;
+    border-radius: 20px; */
+    background: rgb(77, 77, 77);
+   padding: 20px;
+   color: azure;
+
+}
+.textbg-2{
+    /* border: 1px solid black;
+    border-radius: 20px; */
+    background: rgba(246, 246, 246, 0.324);
+   padding: 20px;
+   color: rgb(41, 41, 41);
+
+}
+.textbg-3{
+    /* border: 1px solid black;
+    border-radius: 20px; */
+    background: rgba(126, 126, 126, 0.308);
+   padding: 20px;
+   color: azure;
+
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section h2{
+    line-height: 20px;
+    padding-bottom:15px ;
+    text-transform: uppercase;
+
+}
+.section-light{
+    background-color: white;
+    color: rgb(95, 94, 94);
+}
+.section-dark{
+    background-color: rgb(126, 125, 125);
+    color: rgb(255, 255, 255);
+}

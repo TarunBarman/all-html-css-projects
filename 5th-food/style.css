@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    
+
+}
+nav {
+    box-shadow: 5px 5px 5px rgb(196, 194, 194, 0.5);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+
+.navigation {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.2s ease-in-out;
+    opacity: 0.3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-icon {
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+
+}
+.hero-img img{
+   display: flex;
+   justify-content: center;
+}
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+   
+
+}
+
+.discount-box {
+    background-color: green;
+    align-self: flex-start;
+    padding: 5px 10px;
+    color: white;
+
+}
+
+.discount h1 {
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 1.2;
+}
+
+.discount p {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.explore-btn {
+    font-size: 20px;
+    align-self: flex-start;
+    background-color: rgb(255, 187, 98);
+    color: white;
+    border-radius: 4px;
+
+}
+.second-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+    
+}
+.details-icon{
+    display: flex;
+    gap:15px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    padding: 20px;
+}
+.details-icon:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 10px 15px rgba(159, 159, 159, 0.5);
+
+}
+.text h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.text p{
+    font-size: 18px;
+}
+.separation{
+    height: 1.5px;
+    background-color: rgb(219, 219, 219);
+}
+.menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.menu h2{
+    padding: 10px;
+    font-weight: 500;
+
+}
+.menu-btn{ 
+    color: white;
+    border-radius: 6px;
+    background-color: green;
+    align-self: center;
+    margin-top:15px ;
+}
+.grid-img:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+}
+.grid-img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+
+
+}
+.grid-box{
+    display: grid;
+    grid-template-areas:
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I5 I6 I4 I7";
+    gap: 10px;
+    
+}
+.item-img1{
+    grid-area: I1;
+
+}
+.item-img2{
+    grid-area: I2;
+
+}
+.item-img3{
+    grid-area: I3;
+
+}
+.item-img4{
+    grid-area: I4;
+
+}
+.item-img5{
+    grid-area: I5;
+
+}
+.item-img6{
+    grid-area: I6;
+
+}
+.item-img7{
+    grid-area: I7;
+
+}
+.footer-section{
+    margin-top: 20px;
+    max-height: 100%;
+    background-color: antiquewhite;
+}
+.footer-container{
+   display: flex;
+   justify-content: space-between;
+   padding: 30px;
+}
+.container ul li{
+    list-style: none;
+}
+
+.link-list h3{
+    margin-top: 10px;
+   padding-bottom: 10px;
+   color: gray;
+}
+.icon-container{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+@media  (max-width: 991px){
+    .nav-logo img{
+        width: 50%;
+        height: 50%;
+    }
+    .nav-icon i{
+        width: 50%;
+        height: 50%;
+    }
+
+.hero{
+    flex-direction: column;
+}
+    .hero-img{
+        display: flex;
+        justify-content: center;
+    }
+    .hero-img img{
+        width: 80%;
+
+    }
+    .discount{
+        gap: 5px;
+        padding: 10px;
+    }
+    .discount h1{
+        font-size: 32px;
+
+
+    
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+}
+.details-icon{
+    display: flex;
+    flex-direction: column;
+
+}
+.icon-img {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text h3{
+    display: flex;
+    justify-content: center;
+}
+.grid-img{
+    border-radius: 5px;
+}
+.grid-box{
+
+    padding: 10px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer-logo img{
+    width: 50%;
+    height: 50%;
+}
+.link-list input{
+    width: 50vw;
+}
+
+}
+    
