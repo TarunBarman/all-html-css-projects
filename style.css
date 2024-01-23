@@ -101,6 +101,8 @@ main {
 
 .home-text {
     color: var(--textcolor);
+    font-family: "Roboto", sans-serif;
+
 }
 
 .home-text span {
