@@ -322,9 +322,19 @@ main {
     color: var(--textcolor);
 }
 
-.contect-way i {
+.contect-way i{
     font-size: 3rem;
     color: var(--textcolor);
+}
+.contect-text  a{
+    text-decoration: none;
+
+
+}
+.bottom-contect-text a{
+    text-decoration: none;
+
+
 }
 
 .bottom-contect-text {
@@ -336,6 +346,7 @@ main {
 
 
 }
+
 
 .footer-content {
     background: #15191f;
