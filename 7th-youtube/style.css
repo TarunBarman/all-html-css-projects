@@ -60,10 +60,11 @@
      border-radius: 22px 0px 0px 22px;
      border: 1px solid var(--bodercolor);
  }
+
  .search-bar input:hover {
-    background-color: rgba(224, 224, 224, 0.8);
-    color: black;
-    border:1px solid #2a68e5;
+     background-color: rgba(224, 224, 224, 0.8);
+     color: black;
+     border: 1px solid #2a68e5;
 
  }
 
@@ -144,9 +145,10 @@
      border-radius: 10px;
      padding: 8px 30px;
  }
- .tag a{
-    text-decoration: none;
-    color: white;
+
+ .tag a {
+     text-decoration: none;
+     color: white;
  }
 
  .dark {
@@ -175,25 +177,28 @@
      justify-content: space-between;
 
  }
- nav{
-    position: fixed;
-    z-index: 1;
-    margin-left:78px ;
-    min-width: 1200px;
-    background-color: white;
+
+ nav {
+     position: sticky;
+     z-index: 1;
+     top: 0;
+
+     background-color: white;
  }
- aside{
-    position:fixed;
-    z-index: 1;
-    top: 0;
-    height: 100vh;
-    background-color: white;
-    
+
+ aside {
+     position: sticky;
+
+     top: 0;
+     left: 0;
+     height: 100vh;
+     background-color: white;
+
  }
- .video-container{
-    position: relative;
-    margin-top: 115px;
-    margin-left: 85px;
+
+ .video-container {
+     position: relative;
+
  }
 
  .aside {
@@ -202,12 +207,13 @@
      align-items: center;
      justify-content: center;
      gap: 25px;
-     
+
 
  }
- .aside a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+
+ .aside a {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
  }
 
  .side-icon {
@@ -244,8 +250,8 @@
  .video-container {
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    
-    
+
+
  }
 
  .card {
@@ -254,52 +260,60 @@
      display: flex;
      flex-direction: column;
  }
- .card-img img{
-    object-fit: cover;
-    width: 372px;
-    border-radius: 10px;
+
+ .card-img img {
+     object-fit: cover;
+     width: 372px;
+     border-radius: 10px;
  }
- .card-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top:-10px;
-   
+
+ .card-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: -10px;
+
 
  }
- .light a{
-    text-decoration: none;
-    color: black;
+
+ .light a {
+     text-decoration: none;
+     color: black;
  }
- .avtar{
-    padding-top: 10px;
-    display: flex;
-    gap: 5px;
-  }
-.card-detail {
-    display: flex;
-    flex-direction: column;
-    margin-left: 8px;
-}
-.card h3{
-    padding-top:20px ;
-    font-size: 16px;
-    font-weight: 900;
-    white-space: nowrap; 
-    width: 300px; 
-    overflow: hidden;
-    text-overflow: ellipsis;
-    
-}
-.channel-name {
-    font-size: 15px;
-    font-weight: 500;
 
-  }
-  .content-status {
-    display: flex;
-    font-size: 14px;
-    gap: 10px;
+ .avtar {
+     padding-top: 10px;
+     display: flex;
+     gap: 5px;
+ }
+
+ .card-detail {
+     display: flex;
+     flex-direction: column;
+     margin-left: 8px;
+ }
+
+ .card h3 {
+     padding-top: 20px;
+     font-size: 16px;
+     font-weight: 900;
+     white-space: nowrap;
+     width: 300px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+
+ }
+
+ .channel-name {
+     font-size: 15px;
+     font-weight: 500;
+
+ }
+
+ .content-status {
+     display: flex;
+     font-size: 14px;
+     gap: 10px;
 
 
-  }
+ }

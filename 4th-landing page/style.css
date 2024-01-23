@@ -126,6 +126,7 @@ footer{
     text-transform: uppercase;
    
 }
+     /* media query */
 @media (max-width: 540px){
     .first-section {
         min-height: 50vh;
@@ -157,6 +158,12 @@ footer{
     font-size: 10px;
 
 
+}
+.left-card{
+    min-height: 100%;
+}
+.right-card{
+    min-height: 100%;
 }
 
 
