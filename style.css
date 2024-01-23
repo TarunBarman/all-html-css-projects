@@ -267,7 +267,7 @@ main {
 }
 
 .cv-btn {
-    padding: 1rem 1.5rem;
+    padding: 1.2rem 1.5rem;
     border-radius: 0.7rem;
     border: none;
     margin: 2rem;
@@ -284,6 +284,8 @@ main {
     color: #1E252F;
     font-weight: 700;
     font-size: 1.3rem;
+    
+    
 
 }
 
