@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
 :root {
   --textcolor: white;
 
@@ -14,6 +16,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background: url(Desktop\ -\ 1.jpg);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
 
 
 }
@@ -74,14 +79,14 @@ label {
 
 .form_control input::placeholder {
   color: var(--textcolor);
-  font-size:smaller;
+  font-size: smaller;
 
 }
 
 .form_control select {
   color: var(--textcolor);
   font-size: smaller;
-  
+
 }
 
 
