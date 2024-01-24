@@ -142,9 +142,8 @@ main {
 }
 
 .third-section {
-    background-color: var(--navcolor);
-    /* position: relative; */
-    /* height: 100vh; */
+    background: url(assets/2nd-pannel.jpg);
+   
 }
 
 .third-container {
