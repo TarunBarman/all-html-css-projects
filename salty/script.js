@@ -2,14 +2,14 @@ const header = document.querySelector("header");
 
 window.addEventListener("scroll",function() {
     header.classlist.toggle("sticky", window.scrollY > 60)
-})
+});
 
 
 
 
 
 let menu = document.queryselector('#menu-icon');
-let navlist = document.queryselector('.navlist');
+let navlist = document.queryselector('navlist');
 
 menu.onclick = () => {
     menu.onclickclasslist.remove('bx-x');
