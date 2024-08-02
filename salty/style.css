@@ -470,7 +470,7 @@ nav a {
 
 }
 
-                           /* testinomial */
+/* testinomial */
 .testinomial {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -539,7 +539,7 @@ nav a {
     font-size: 3.5rem;
 }
 
-                        /* cta */
+/* cta */
 .cta {
     background: var(--contect);
     padding: 70px 40px;
@@ -615,7 +615,7 @@ form a {
 }
 
 
-                     /* footer */
+/* footer */
 
 
 .footer-container {
@@ -669,7 +669,7 @@ form a {
     color: var(--textcolor);
 }
 
-                         /* last */
+/* last */
 
 .copyright {
     display: flex;
@@ -686,7 +686,8 @@ form a {
 .copyright h5 {
     font-size: 1.5rem;
 }
-                      /* media */
+
+/* media */
 
 @media(max-width:1032px) {
     html {
